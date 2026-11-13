@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Ktra_gki" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize light theme matching screenshot -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorSecondary">@color/primary</item>
+        <item name="android:windowBackground">@color/bg_app</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Theme.Ktra_gki" parent="Base.Theme.Ktra_gki" />
+</resources>
